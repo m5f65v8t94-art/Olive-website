@@ -1,0 +1,81 @@
+<svg viewBox="0 0 64 64" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#557A47"/>
+      <stop offset="100%" stop-color="#769E66"/>
+    </linearGradient>
+    <linearGradient id="oliveCanopyGrad" x1="10" y1="8" x2="54" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="60%" stop-color="#F2F7EE" stop-opacity="0.93"/>
+      <stop offset="100%" stop-color="#E2EED8" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="oliveLeafAccent" x1="12" y1="12" x2="50" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D0E3C2"/>
+      <stop offset="100%" stop-color="#B7CFA6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded Square App Icon Base -->
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Ground subtle horizon mound -->
+  <path d="M8 56C20 54.5 44 54.5 56 56" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Thick Ancient Braided/Twisted Trunk Base (Inspired by mature Mediterranean tree) -->
+  <!-- Left root cord -->
+  <path d="M19 56C22 53 24 49 25 44C24 39 26 34 29 30C31 32 32 35 31 40C30 45 28 50 27 56C24 55.5 21.5 55.5 19 56Z" fill="#FFFFFF" opacity="0.98"/>
+  <!-- Middle twisted wood cable (spiral cord overlapping) -->
+  <path d="M26 56C28 51 31 46 33 41C35 37 33 32 31 29C33 29 35 31 37 34C38 39 35 44 33 49C31 52 30 54 29 56C28 56 27 56 26 56Z" fill="#FFFFFF" opacity="0.92"/>
+  <!-- Right root & spiral ridge -->
+  <path d="M37 56C36 51 37 46 39 42C41 38 40 34 38 31C40 32 42 35 43 39C44 44 43 49 44 56C41.5 55.5 39 55.5 37 56Z" fill="#FFFFFF" opacity="0.95"/>
+  <!-- Gnarled trunk texture shadow grooves (Braided spiral effect) -->
+  <path d="M25 52C26.5 46 29 42 32 37M22 54C24 48 25.5 43 28 39M32 53C34 47 37 42 38 35M37 53C39 48 41 43 42 37" stroke="#48683B" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- Massive Primary Scaffold Limbs (Directly from photo) -->
+  <!-- Left horizontal sweeping limb -->
+  <path d="M29 30C24 28 19 28 13 30C10 31 8 30 6 28M18 28C15 24 12 21 8 19M22 28C19 22 16 17 12 14" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" opacity="0.95"/>
+  <!-- Right upward arching limb with angular elbow crook -->
+  <path d="M36 31C39 29 43 28 48 30C52 32 55 31 58 28M42 28C46 24 49 21 54 19M38 28C40 22 43 17 49 14" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" opacity="0.95"/>
+  <!-- Center crown limb & boughs -->
+  <path d="M32 29C32 24 31 18 28 12M33 29C34 23 36 17 40 12M32 22C30 16 28 12 23 9M34 22C36 16 39 12 44 9" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+
+  <!-- Broad Asymmetrical Canopy Foliage (Airy, Multi-tiered Mediterranean Olive Clusters) -->
+  <!-- Left Outer Canopy (Wide spreading) -->
+  <ellipse cx="9" cy="25" rx="6.5" ry="4" transform="rotate(-15 9 25)" fill="url(#oliveCanopyGrad)"/>
+  <ellipse cx="7" cy="19" rx="5.5" ry="3.2" transform="rotate(15 7 19)" fill="url(#oliveCanopyGrad)"/>
+  <ellipse cx="14" cy="21" rx="6" ry="3.5" transform="rotate(-25 14 21)" fill="url(#oliveCanopyGrad)"/>
+  <ellipse cx="11" cy="14" rx="5" ry="3" transform="rotate(20 11 14)" fill="url(#oliveCanopyGrad)"/>
+  <ellipse cx="17" cy="16" rx="5.5" ry="3.5" transform="rotate(-10 17 16)" fill="url(#oliveCanopyGrad)"/>
+
+  <!-- Center Crown (Airy with natural breaks) -->
+  <ellipse cx="26" cy="10" rx="7" ry="4.2" transform="rotate(-15 26 10)" fill="url(#oliveCanopyGrad)"/>
+  <ellipse cx="38" cy="10" rx="7" ry="4.2" transform="rotate(15 38 10)" fill="url(#oliveCanopyGrad)"/>
+  <ellipse cx="32" cy="7" rx="6.5" ry="3.8" transform="rotate(2 32 7)" fill="#FFFFFF" opacity="0.98"/>
+  <ellipse cx="32" cy="14" rx="7.5" ry="4" fill="url(#oliveCanopyGrad)"/>
+  <ellipse cx="22" cy="13" rx="6" ry="3.5" transform="rotate(25 22 13)" fill="url(#oliveCanopyGrad)"/>
+  <ellipse cx="42" cy="13" rx="6" ry="3.5" transform="rotate(-25 42 13)" fill="url(#oliveCanopyGrad)"/>
+
+  <!-- Right Outer Canopy (Stepped tiers & elbow spray) -->
+  <ellipse cx="55" cy="25" rx="6.5" ry="4" transform="rotate(15 55 25)" fill="url(#oliveCanopyGrad)"/>
+  <ellipse cx="57" cy="19" rx="5.5" ry="3.2" transform="rotate(-15 57 19)" fill="url(#oliveCanopyGrad)"/>
+  <ellipse cx="50" cy="21" rx="6" ry="3.5" transform="rotate(25 50 21)" fill="url(#oliveCanopyGrad)"/>
+  <ellipse cx="53" cy="14" rx="5" ry="3" transform="rotate(-20 53 14)" fill="url(#oliveCanopyGrad)"/>
+  <ellipse cx="47" cy="16" rx="5.5" ry="3.5" transform="rotate(10 47 16)" fill="url(#oliveCanopyGrad)"/>
+
+  <!-- Individual Narrow Olive Leaf Tufts & Dangling Sprigs (Silvery-Sage Accents) -->
+  <path d="M4 23C5.5 20.5 8.5 21 9 23.5C7.5 24.5 5 25 4 23Z" fill="url(#oliveLeafAccent)"/>
+  <path d="M60 23C58.5 20.5 55.5 21 55 23.5C56.5 24.5 59 25 60 23Z" fill="url(#oliveLeafAccent)"/>
+  <path d="M15 29C13 28 12.5 26 14.5 24.5C16.5 25 17.5 27.5 15 29Z" fill="url(#oliveLeafAccent)"/>
+  <path d="M49 29C51 28 51.5 26 49.5 24.5C47.5 25 46.5 27.5 49 29Z" fill="url(#oliveLeafAccent)"/>
+  <path d="M28 5C30.5 3 33.5 3 36 5C34 6.5 30 6.5 28 5Z" fill="url(#oliveLeafAccent)"/>
+  <path d="M20 21C18 19.5 18.5 17 20.5 17C22.5 17.5 22 20 20 21Z" fill="url(#oliveLeafAccent)"/>
+  <path d="M44 21C46 19.5 45.5 17 43.5 17C41.5 17.5 42 20 44 21Z" fill="url(#oliveLeafAccent)"/>
+
+  <!-- Small Delicate Olive Fruits -->
+  <circle cx="13" cy="26" r="1.6" fill="#2E3F24"/>
+  <circle cx="13.6" cy="26.3" r="0.6" fill="#EBF5E3"/>
+  <circle cx="51" cy="26" r="1.6" fill="#2E3F24"/>
+  <circle cx="51.6" cy="26.3" r="0.6" fill="#EBF5E3"/>
+  <circle cx="28" cy="18" r="1.5" fill="#2E3F24"/>
+  <circle cx="36" cy="17" r="1.5" fill="#2E3F24"/>
+</svg>
