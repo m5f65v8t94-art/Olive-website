@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/backend/app/static/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/backend/app/static/$1"
+    }
+  ]
+}
