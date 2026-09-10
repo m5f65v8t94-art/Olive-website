@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/backend/app/static/index.html"
+    },
+    {
+      "source": "/static/:path*",
+      "destination": "/backend/app/static/:path*"
+    }
+  ]
+}
